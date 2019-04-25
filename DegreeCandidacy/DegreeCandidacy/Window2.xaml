@@ -8,13 +8,27 @@
         Title="Window2" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblPrerequisites" Content="Prerequisites to Enroll in Upper Division Business Courses" HorizontalAlignment="Left" Margin="90,11,0,0" VerticalAlignment="Top" Width="621" FontSize="24"/>
-        <Label x:Name="lblExplain" Content="Please select all prerequisites you have completed:" HorizontalAlignment="Left" Margin="234,53,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label x:Name="lbl1113" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,93,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
-        <Label x:Name="lbl1213" Content="ENGL/EXPO 1213- English Composition II or Expository Writing" HorizontalAlignment="Left" Margin="90,121,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
-        <Label x:Name="lbl11132613" Content="COMM 1113- Principles of Communication or COMM 2613- Public Speaking" HorizontalAlignment="Left" Margin="90,151,0,0" VerticalAlignment="Top" Width="480" FontSize="14"/>
-        <Label x:Name="lbl2123" Content="MATH 2123- Calculus II for Business, Life and Social Science" HorizontalAlignment="Left" Margin="90,180,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
-        <Label x:Name="lbl1113_Copy3" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,212,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
-        <Label x:Name="lbl1113_Copy4" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,243,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblExplain" Content="Please select/enter all the prerequisites that you have completed:" HorizontalAlignment="Left" Margin="167,49,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lbl1113" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="117,87,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lbl1213" Content="ENGL/EXPO 1213- English Composition II or Expository Writing" HorizontalAlignment="Left" Margin="117,113,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lbl11132613" Content="COMM 1113- Principles of Communication or COMM 2613- Public Speaking" HorizontalAlignment="Left" Margin="117,140,0,0" VerticalAlignment="Top" Width="480" FontSize="14"/>
+        <Label x:Name="lbl2123" Content="MATH 2123- Calculus II for Business, Life and Social Science" HorizontalAlignment="Left" Margin="117,166,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lbl21232" Content="ACCT 2123- Fundamenal Managerial Acconting" HorizontalAlignment="Left" Margin="117,193,0,0" VerticalAlignment="Top" Width="308" FontSize="14"/>
+        <Label x:Name="lbl1001" Content="B AD 1001- PC Productivity Tools" HorizontalAlignment="Left" Margin="117,217,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblExplain_Copy" Content="" HorizontalAlignment="Left" Margin="266,255,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblHours" Content="Credit Hours" HorizontalAlignment="Left" Margin="117,241,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblGPAOU" Content="OU GPA" HorizontalAlignment="Left" Margin="117,275,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblGPAcombo" Content="Combined GPA" HorizontalAlignment="Left" Margin="117,307,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <CheckBox x:Name="checkENGL1113" Content="" HorizontalAlignment="Left" Margin="650,95,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkENGL1213" Content="" HorizontalAlignment="Left" Margin="650,122,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkCOMM1113" Content="" HorizontalAlignment="Left" Margin="650,147,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkMATH2123" Content="" HorizontalAlignment="Left" Margin="650,174,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkACCT2123" Content="" HorizontalAlignment="Left" Margin="650,199,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBAD1001" Content="" HorizontalAlignment="Left" Margin="650,223,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCreditHours" HorizontalAlignment="Left" Height="23" Margin="549,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtOUGPA" HorizontalAlignment="Left" Height="23" Margin="549,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtGPACombo" HorizontalAlignment="Left" Height="23" Margin="549,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="353,350,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>
 
     </Grid>
 </Window>

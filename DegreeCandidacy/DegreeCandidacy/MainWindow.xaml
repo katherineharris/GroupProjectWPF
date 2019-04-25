@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lblWelcome" Content="Welcome" HorizontalAlignment="Left" Margin="329,42,0,0" VerticalAlignment="Top" Height="47" Width="108" FontSize="24"/>
-        <Label x:Name="lblSignIn" Content="Sign In" HorizontalAlignment="Left" Margin="354,94,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="lblWelcome" Content="Price Undergraduate Degree Checklist" HorizontalAlignment="Left" Margin="179,21,0,0" VerticalAlignment="Top" Height="47" Width="433" FontSize="24"/>
+        <Label x:Name="lblSignIn" Content="Sign In" HorizontalAlignment="Left" Margin="354,78,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="lbl4X4" Content="OU 4X4:" HorizontalAlignment="Left" Margin="298,151,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="287,205,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="354,264,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>

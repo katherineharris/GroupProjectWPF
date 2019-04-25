@@ -7,6 +7,34 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="lblPrerequisites" Content="Prerequistites to Earn Degree Candidacy" HorizontalAlignment="Left" Margin="180,10,0,0" VerticalAlignment="Top" Width="439" FontSize="24"/>
+        <Label x:Name="lblExplain" Content="Please select/enter the prerequisites you have completed and the grade (A-F) received:" HorizontalAlignment="Left" Margin="96,46,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblACCT2113" Content="ACCT 2113- Fundamental Financial Accounting" HorizontalAlignment="Left" Margin="117,87,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblBC2813" Content="B C 2813- Business Communications" HorizontalAlignment="Left" Margin="117,113,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lblECON1113" Content="ECON 1113- Principles of Economics- Macro" HorizontalAlignment="Left" Margin="117,140,0,0" VerticalAlignment="Top" Width="480" FontSize="14"/>
+        <Label x:Name="lblECON1123" Content="ECON 1123- Principles of Economics- Micro" HorizontalAlignment="Left" Margin="117,166,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lblECON2843" Content="ACCT 2123- Fundamenal Managerial Acconting" HorizontalAlignment="Left" Margin="117,193,0,0" VerticalAlignment="Top" Width="308" FontSize="14"/>
+        <Label x:Name="lblMIS2113" Content="MIS 2113- Computer-bsaed Info Systems" HorizontalAlignment="Left" Margin="117,217,0,0" VerticalAlignment="Top" Width="335" FontSize="14"/>
+        <CheckBox x:Name="checkACCT2113" Content="" HorizontalAlignment="Left" Margin="578,95,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBC2813" Content="" HorizontalAlignment="Left" Margin="578,122,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkECON1113" Content="" HorizontalAlignment="Left" Margin="578,148,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkECON1123" Content="" HorizontalAlignment="Left" Margin="578,175,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkACCT2123" Content="" HorizontalAlignment="Left" Margin="579,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkMIS2113" Content="" HorizontalAlignment="Left" Margin="578,227,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtACCT2113" HorizontalAlignment="Left" Height="23" Margin="613,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="txtBC2813" HorizontalAlignment="Left" Height="23" Margin="613,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="txtECON1113" HorizontalAlignment="Left" Height="23" Margin="613,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="txtECON1123" HorizontalAlignment="Left" Height="23" Margin="613,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="txtACCT2123" HorizontalAlignment="Left" Height="23" Margin="613,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="txtMIS2113" HorizontalAlignment="Left" Height="23" Margin="613,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
+        <Label x:Name="lblExplain_Copy" Content="" HorizontalAlignment="Left" Margin="266,261,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblGPACourses" Content="Combined GPA in above courses" HorizontalAlignment="Left" Margin="117,249,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblGPAOU" Content="OU GPA" HorizontalAlignment="Left" Margin="117,279,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lblGPAcombo" Content="Combined GPA" HorizontalAlignment="Left" Margin="117,307,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <TextBox x:Name="txtCreditHours" HorizontalAlignment="Left" Height="23" Margin="549,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtOUGPA" HorizontalAlignment="Left" Height="23" Margin="549,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtGPACombo" HorizontalAlignment="Left" Height="23" Margin="549,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="353,332,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>
+
     </Grid>
 </Window>
