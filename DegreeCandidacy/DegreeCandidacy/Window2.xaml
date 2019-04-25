@@ -1,0 +1,20 @@
+﻿<Window x:Class="DegreeCandidacy.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DegreeCandidacy"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblPrerequisites" Content="Prerequisites to Enroll in Upper Division Business Courses" HorizontalAlignment="Left" Margin="90,11,0,0" VerticalAlignment="Top" Width="621" FontSize="24"/>
+        <Label x:Name="lblExplain" Content="Please select all prerequisites you have completed:" HorizontalAlignment="Left" Margin="234,53,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lbl1113" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,93,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lbl1213" Content="ENGL/EXPO 1213- English Composition II or Expository Writing" HorizontalAlignment="Left" Margin="90,121,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lbl11132613" Content="COMM 1113- Principles of Communication or COMM 2613- Public Speaking" HorizontalAlignment="Left" Margin="90,151,0,0" VerticalAlignment="Top" Width="480" FontSize="14"/>
+        <Label x:Name="lbl2123" Content="MATH 2123- Calculus II for Business, Life and Social Science" HorizontalAlignment="Left" Margin="90,180,0,0" VerticalAlignment="Top" Width="403" FontSize="14"/>
+        <Label x:Name="lbl1113_Copy3" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,212,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+        <Label x:Name="lbl1113_Copy4" Content="ENGL 1113- English Composition I" HorizontalAlignment="Left" Margin="90,243,0,0" VerticalAlignment="Top" Width="225" FontSize="14"/>
+
+    </Grid>
+</Window>
