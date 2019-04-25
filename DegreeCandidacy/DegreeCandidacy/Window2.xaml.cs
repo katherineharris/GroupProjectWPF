@@ -23,5 +23,12 @@ namespace DegreeCandidacy
         {
             InitializeComponent();
         }
+
+        private void btbContinue_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 win3 = new Window3();
+            win3.Show();
+            this.Close();
+        }
     }
 }

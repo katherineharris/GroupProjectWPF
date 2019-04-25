@@ -28,7 +28,7 @@
         <TextBox x:Name="txtCreditHours" HorizontalAlignment="Left" Height="23" Margin="549,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtOUGPA" HorizontalAlignment="Left" Height="23" Margin="549,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtGPACombo" HorizontalAlignment="Left" Height="23" Margin="549,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="353,350,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>
+        <Button x:Name="btbContinue2" Content="Continue" HorizontalAlignment="Left" Margin="353,350,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>
 
     </Grid>
 </Window>

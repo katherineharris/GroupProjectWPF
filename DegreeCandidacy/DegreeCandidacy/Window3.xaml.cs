@@ -23,5 +23,16 @@ namespace DegreeCandidacy
         {
             InitializeComponent();
         }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            comboSelection.Items.Add("Accounting");
+            comboSelection.Items.Add("Finance");
+            comboSelection.Items.Add("Management Information Systems");
+            comboSelection.Items.Add("Marketing");
+            comboSelection.Items.Add("Supply Chain Management");
+
+
+        }
     }
 }
