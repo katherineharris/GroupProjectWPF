@@ -28,8 +28,8 @@ namespace DegreeCandidacy
         {
             comboSelection.Items.Add("Accounting");
             comboSelection.Items.Add("Finance");
-            comboSelection.Items.Add("Management Information Systems");
             comboSelection.Items.Add("Marketing");
+            comboSelection.Items.Add("Management Information Systems");
             comboSelection.Items.Add("Supply Chain Management");
 
 

@@ -64,6 +64,21 @@
     <Compile Include="Window3.xaml.cs">
       <DependentUpon>Window3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="XAccounting.xaml.cs">
+      <DependentUpon>XAccounting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XFinance.xaml.cs">
+      <DependentUpon>XFinance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XMarketing.xaml.cs">
+      <DependentUpon>XMarketing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XMIS.xaml.cs">
+      <DependentUpon>XMIS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XSupplyChain.xaml.cs">
+      <DependentUpon>XSupplyChain.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -85,6 +100,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XAccounting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XFinance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XMarketing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XMIS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XSupplyChain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
