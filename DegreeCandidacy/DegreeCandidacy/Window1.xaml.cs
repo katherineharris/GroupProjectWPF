@@ -26,15 +26,6 @@ namespace DegreeCandidacy
 
         private void btbContinue_Click(object sender, RoutedEventArgs e)
         {
-            //checkACCT2113;
-            //checkACCT2123;
-            //checkBC2813;
-            //checkECON1113;
-            //checkECON1123;
-            //checkMIS2113;
-            //txtCreditHours;
-            //txtGPACombo;
-            //txtOUGPA;
 
             if((Convert.ToDouble(txtOUGPA.Text)<0.0)||(Convert.ToDouble(txtOUGPA.Text) > 4.0))
             {
@@ -62,7 +53,7 @@ namespace DegreeCandidacy
             {
                 if (checkACCT2113.IsChecked == false)
                 {
-                    lstNeed.Items.Add("ACCT2113");
+                    lstNeed.Items.Add("ACCT 2113");
                 }
                 if (checkACCT2123.IsChecked == false)
                 {
