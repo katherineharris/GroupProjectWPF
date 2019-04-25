@@ -84,15 +84,15 @@ namespace DegreeCandidacy
                 {
                     lstNeed.Items.Add("MIS 2113");
                 }
-                if (Convert.ToDouble(txtCreditHours.Text) < 3.0)
+                if ((Convert.ToDouble(txtCreditHours.Text) < 3.0)&& (Convert.ToDouble(txtCreditHours.Text) >= 0.0))
                 {
                     lstNeed.Items.Add("3.0 Prerequisites GPA");
                 }
-                if (Convert.ToDouble(txtOUGPA.Text) < 2.5)
+                if ((Convert.ToDouble(txtOUGPA.Text) < 2.5) && (Convert.ToDouble(txtOUGPA.Text) >=0.0))
                 {
                     lstNeed.Items.Add("2.5 OU GPA");
                 }
-                if (Convert.ToDouble(txtGPACombo.Text) < 3.0)
+                if ((Convert.ToDouble(txtGPACombo.Text) < 3.0)&&(Convert.ToDouble(txtGPACombo.Text) >= 0.0))
                 {
                     lstNeed.Items.Add("3.0 Combined GPA");
                 }
