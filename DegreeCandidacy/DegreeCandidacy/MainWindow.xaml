@@ -11,7 +11,7 @@
         <Label x:Name="lblSignIn" Content="Sign In" HorizontalAlignment="Left" Margin="354,78,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="lbl4X4" Content="OU 4X4:" HorizontalAlignment="Left" Margin="298,151,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="287,205,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="354,264,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click"/>
+        <Button x:Name="btbContinue" Content="Continue" HorizontalAlignment="Left" Margin="354,264,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click" IsDefault="True"/>
         <TextBox x:Name="txt4X4" HorizontalAlignment="Left" Height="23" Margin="395,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="395,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 

@@ -27,9 +27,31 @@ namespace DegreeCandidacy
 
         private void btbContinue_Click(object sender, RoutedEventArgs e)
         {
-            Window1 win1 = new Window1();
-            win1.Show();
-            this.Close();
+            string username;
+            string password;
+            username = txt4X4.Text;
+            password = txtPassword.Text;
+
+            if(username!="")
+            {
+                if (password != "")
+                {
+                    Window1 win1 = new Window1();
+                    win1.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a valid password.");
+                    txtPassword.Clear();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid username.");
+                txt4X4.Clear();
+                txtPassword.Clear();
+            }
 
         }
     }

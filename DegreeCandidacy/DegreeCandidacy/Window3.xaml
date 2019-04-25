@@ -10,6 +10,7 @@
         <ComboBox x:Name="comboSelection" HorizontalAlignment="Left" Margin="410,128,0,0" VerticalAlignment="Top" Width="199" Height="26"/>
         <Label x:Name="lblMajorSelection" Content="Please select your major:" HorizontalAlignment="Left" Margin="230,128,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPageHeader" Content="Major Selection" HorizontalAlignment="Left" Margin="277,47,0,0" VerticalAlignment="Top" Height="41" Width="179" FontSize="24"/>
+        <Button x:Name="btbContinue3" Content="Continue" HorizontalAlignment="Left" Margin="354,264,0,0" VerticalAlignment="Top" Width="83" Height="36" Click="btbContinue_Click" IsDefault="True"/>
 
     </Grid>
 </Window>
