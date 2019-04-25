@@ -34,5 +34,10 @@ namespace DegreeCandidacy
 
 
         }
+
+        private void btbContinue_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
