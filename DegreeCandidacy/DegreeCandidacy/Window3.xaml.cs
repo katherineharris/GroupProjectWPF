@@ -31,13 +31,40 @@ namespace DegreeCandidacy
             comboSelection.Items.Add("Marketing");
             comboSelection.Items.Add("Management Information Systems");
             comboSelection.Items.Add("Supply Chain Management");
-
-
         }
 
         private void btbContinue_Click(object sender, RoutedEventArgs e)
         {
-
+            if (comboSelection.SelectedItem.ToString() == "Accounting")
+            {
+                XAccounting acct = new XAccounting();
+                acct.Show();
+                this.Close();
+            }
+            else if (comboSelection.SelectedItem.ToString() == "Finance")
+            {
+                XFinance fin = new XFinance();
+                fin.Show();
+                this.Close();
+            }
+            else if (comboSelection.SelectedItem.ToString() == "Marketing")
+            {
+                XMarketing mkt = new XMarketing();
+                mkt.Show();
+                this.Close();
+            }
+            else if(comboSelection.SelectedItem.ToString()=="Management Information Systems")
+            {
+                XMIS mis = new XMIS();
+                mis.Show();
+                this.Close();
+            }
+            else if(comboSelection.ToString()=="Supply Chain Management")
+            {
+                XSupplyChain scm = new XSupplyChain();
+                scm.Show();
+                this.Close();
+            }
         }
     }
 }
