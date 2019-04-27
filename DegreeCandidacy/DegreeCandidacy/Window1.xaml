@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DegreeCandidacy"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="450" Width="800" Background="Crimson">
     <Grid>
         <Label x:Name="lblPrerequisites" Content="Prerequistites to Earn Degree Candidacy" HorizontalAlignment="Left" Margin="180,10,0,0" VerticalAlignment="Top" Width="439" FontSize="24"/>
         <Label x:Name="lblExplain" Content="Please select the courses you have completed with a passing grade" HorizontalAlignment="Left" Margin="159,51,0,0" VerticalAlignment="Top" FontSize="16"/>

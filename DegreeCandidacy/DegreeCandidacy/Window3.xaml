@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DegreeCandidacy"
         mc:Ignorable="d"
-        Title="Window3" Height="450" Width="800">
+        Title="Window3" Height="450" Width="800" Background="Crimson">
     <Grid Loaded="Grid_Loaded">
         <ComboBox x:Name="comboSelection" HorizontalAlignment="Left" Margin="410,128,0,0" VerticalAlignment="Top" Width="199" Height="26"/>
         <Label x:Name="lblMajorSelection" Content="Please select your major:" HorizontalAlignment="Left" Margin="230,128,0,0" VerticalAlignment="Top"/>

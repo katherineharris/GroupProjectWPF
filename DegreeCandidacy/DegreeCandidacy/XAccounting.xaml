@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DegreeCandidacy"
         mc:Ignorable="d"
-        Title="XAccounting" Height="450" Width="800">
+        Title="XAccounting" Height="450" Width="800" Background="Crimson">
     <Grid>
         <Label x:Name="majorRequirements" Content="Major Requirements" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="ACCT3113" Content="ACCT 3113--Intermediate Acct. I" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" VerticalAlignment="Top" Width="201"/>
