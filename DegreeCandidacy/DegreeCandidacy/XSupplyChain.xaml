@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="XSupplyChain" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="majorRequirements" Content="Major Requirements" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="SCM3223" Content="SCM 3223--Logistics Management" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="SCM3323" Content="SCM 3323--Purchasing &amp; Buyer Behavior" HorizontalAlignment="Left" Height="30" Margin="22,59,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="SCM3523" Content="SCM 3523--Production/Ops Management" HorizontalAlignment="Left" Height="30" Margin="22,77,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="SCM4003" Content="SCM 4003--Transportation &amp; Global Logistics" HorizontalAlignment="Left" Height="30" Margin="22,95,0,0" VerticalAlignment="Top" Width="270"/>
+        <CheckBox x:Name="SCM4323" Content="SCM 4323--Strategic Issues in SCM" HorizontalAlignment="Left" Height="30" Margin="22,113,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="additionalCourses" Content="3 Hours of the Following:" HorizontalAlignment="Left" Margin="22,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="SCM4013" Content="SCM 4013--Supply Chain Modeling and Decision Making" HorizontalAlignment="Left" Height="30" Margin="22,179,0,0" VerticalAlignment="Top" Width="323"/>
+        <CheckBox x:Name="HCB4633" Content="HCB 4633--Healthcare Supply Chain Management" HorizontalAlignment="Left" Height="30" Margin="22,197,0,0" VerticalAlignment="Top" Width="293"/>
+        <Label x:Name="freeElectiveMIS" Content="Free Electives (5 hours)" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElective1" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
+        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Label x:Name="eleUD" Content="Upper Division Electives (3 hours)" HorizontalAlignment="Left" Margin="15,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="ACCT3313" Content="ACCT 3313--Cost Accounting" HorizontalAlignment="Left" Height="30" Margin="22,247,0,0" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="eleUD_Copy" Content="Upper Division Electives (15 hours)" HorizontalAlignment="Left" Margin="15,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="scmElective1" Content="Elective 1" HorizontalAlignment="Left" Height="30" Margin="22,297,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="scmElective2" Content="Elective 2" HorizontalAlignment="Left" Height="30" Margin="22,313,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="scmElective3" Content="Elective 3" HorizontalAlignment="Left" Height="30" Margin="22,328,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="scmElective4" Content="Elective 4" HorizontalAlignment="Left" Height="30" Margin="22,344,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="scmElective5" Content="Elective 5" HorizontalAlignment="Left" Height="30" Margin="22,359,0,0" VerticalAlignment="Top" Width="201"/>
+
     </Grid>
 </Window>
