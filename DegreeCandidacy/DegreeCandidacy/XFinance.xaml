@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="XFinance" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="majorRequirements" Content="Major Requirements" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="FIN3403" Content="FIN 3403--Financial Intermediaries and Markets" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" VerticalAlignment="Top" Width="275"/>
+        <CheckBox x:Name="FIN3453" Content="FIN 3453--Financial Modeling &amp; Analysis" HorizontalAlignment="Left" Height="30" Margin="22,59,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="FIN3503" Content="FIN 3503--Investments" HorizontalAlignment="Left" Height="30" Margin="22,77,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="FIN3603" Content="FIN 3603--Advanced Corporate Finance" HorizontalAlignment="Left" Height="30" Margin="22,95,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="additionalCourses" Content="Additional Courses/Upper Division Electives" HorizontalAlignment="Left" Margin="22,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="MIS3213" Content="MIS 3213--Buiness Data Analytics" HorizontalAlignment="Left" Height="30" Margin="22,184,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS3363" Content="MIS 3363--Info Systems Infrastructure" HorizontalAlignment="Left" Height="30" Margin="22,202,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4213" Content="MIS 4213--Prototyping &amp; Rapid App. Development" HorizontalAlignment="Left" Height="30" Margin="22,220,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4413" Content="MIS 4413--Object Oriented Systems Dev." HorizontalAlignment="Left" Height="30" Margin="22,238,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4433" Content="MIS 4433--Project Management" HorizontalAlignment="Left" Height="30" Margin="22,255,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4443" Content="MIS4442--Advanced Database Mgt." HorizontalAlignment="Left" Height="30" Margin="22,272,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4493" Content="MIS 4493--Intl. Issues of Info. Technology" HorizontalAlignment="Left" Height="30" Margin="22,288,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4702" Content="MIS 4702--Mobile App. Development" HorizontalAlignment="Left" Height="30" Margin="22,304,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4710" Content="MIS 4710--Topics in Mgt. Info. Systems" HorizontalAlignment="Left" Height="30" Margin="22,319,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="freeElectiveFinance" Content="Free Electives (5 hours)" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElective1" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
+        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Label Content="Additional Courses/Upper Division Electives" HorizontalAlignment="Left" Margin="22,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+
     </Grid>
 </Window>
