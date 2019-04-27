@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="XMarketing" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="majorRequirements" Content="Major Requirements" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="MKT3053" Content="MKT 3053--Marketing Research" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="MKT3323" Content="MKT 3323--Purchasing &amp; Buyer Behavior" HorizontalAlignment="Left" Height="30" Margin="22,59,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MKT3513" Content="MKT 3513--Social Media Marketing" HorizontalAlignment="Left" Height="30" Margin="22,77,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MKT4123" Content="MKT 4123--Negotiation and Selling" HorizontalAlignment="Left" Height="30" Margin="22,95,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MKT4333" Content="MKT 4333--Marketing Strategy and Policy" HorizontalAlignment="Left" Height="30" Margin="22,113,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="concentrationCourses" Content="Choose Area of Concentration (12 hours)" HorizontalAlignment="Left" Margin="22,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283" Width="230"/>
+        <CheckBox x:Name="mktFranchising" Content="Franchising (P264)" HorizontalAlignment="Left" Height="30" Margin="22,174,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="mktHealthcareBusiness" Content="Healthcare Business (P309)" HorizontalAlignment="Left" Height="30" Margin="22,192,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="mktSupplyChainMgt" Content="Supply Chain Management (P640)" HorizontalAlignment="Left" Height="30" Margin="22,210,0,0" VerticalAlignment="Top" Width="253" IsThreeState="True"/>
+        <CheckBox x:Name="mktSecondMajor" Content="Second Major in Price (P660)" HorizontalAlignment="Left" Height="30" Margin="22,228,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="mktAdvertising" Content="Advertising (P021)" HorizontalAlignment="Left" Height="30" Margin="22,245,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="freeElectiveMKT" Content="Free Electives (2 hours)" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElectiveMkt" Content="Free Elective " HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Label x:Name="eleUDMKT" Content="Upper Division Electives (12 hours)" HorizontalAlignment="Left" Margin="15,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElective1UDFin" Content="UD Elective 1" HorizontalAlignment="Left" Height="30" Margin="22,302,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2UDFin" Content="UD Elective 2" HorizontalAlignment="Left" Height="30" Margin="22,320,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective3UDMkt" Content="UD Elective 3" HorizontalAlignment="Left" Height="30" Margin="22,338,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective4UDMkt" Content="UD Elective 4" HorizontalAlignment="Left" Height="30" Margin="22,353,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective5UDMkt" Content="UD Elective 5" HorizontalAlignment="Left" Height="30" Margin="22,367,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective6UDMkt" Content="UD Elective 6" HorizontalAlignment="Left" Height="30" Margin="22,383,0,0" VerticalAlignment="Top" Width="201"/>
+
     </Grid>
 </Window>

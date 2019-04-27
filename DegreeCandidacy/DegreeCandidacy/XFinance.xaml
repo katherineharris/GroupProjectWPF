@@ -30,9 +30,9 @@
         <Label x:Name="nineHours" Content="Choose 9 Hours" HorizontalAlignment="Left" Margin="22,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="FIN4700" Content="FIN 4700--Internship in Finance*" HorizontalAlignment="Left" Height="30" Margin="22,334,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="ACCT3123" Content="ACCT 3213--Intermediate Acct. II" HorizontalAlignment="Left" Height="30" Margin="315,76,0,0" VerticalAlignment="Top" Width="201"/>
-        <Label x:Name="freeElectives" Content="Free Electives (5 Hours)" HorizontalAlignment="Left" Margin="308,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
-        <CheckBox x:Name="freeElective1Fin" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="315,133,0,0" VerticalAlignment="Top" Width="201"/>
-        <CheckBox x:Name="freeElective2Fin" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,151,0,0" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="freeElectives" Content="Free Electives (5 Hours)" HorizontalAlignment="Left" Margin="301,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElective1Fin" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="308,133,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2Fin" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="308,151,0,0" VerticalAlignment="Top" Width="201"/>
         <Label x:Name="eleUD" Content="Upper Division Electives (6 hours)" HorizontalAlignment="Left" Margin="301,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="freeElective1UDFin" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="308,202,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective2UDFin" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="308,220,0,0" VerticalAlignment="Top" Width="201"/>
