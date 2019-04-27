@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="XAccounting" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="majorRequirements" Content="Major Requirements" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="MIS3013" Content="MIS 3013--Intro to Programming" HorizontalAlignment="Left" Height="30" Margin="22,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="MIS3033" Content="MIS 3033--Non-Procedural Programming" HorizontalAlignment="Left" Height="30" Margin="22,59,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MID3353y" Content="MIS 3353--Databases" HorizontalAlignment="Left" Height="30" Margin="22,77,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS3373" Content="MIS 3373--Sys. Analysis/Design Theory" HorizontalAlignment="Left" Height="30" Margin="22,95,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS3383" Content="MIS 3383--Electronic Business" HorizontalAlignment="Left" Height="30" Margin="22,113,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4663" Content="MIS 4663--MIS Field Project" HorizontalAlignment="Left" Height="30" Margin="22,131,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="additionalCourses" Content="Additional Courses/Upper Division Electives" HorizontalAlignment="Left" Margin="22,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="MIS3213" Content="MIS 3213--Buiness Data Analytics" HorizontalAlignment="Left" Height="30" Margin="22,197,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS3363" Content="MIS 3363--Info Systems Infrastructure" HorizontalAlignment="Left" Height="30" Margin="22,215,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4213" Content="MIS 4213--Prototyping &amp; Rapid App. Development" HorizontalAlignment="Left" Height="30" Margin="22,233,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4413" Content="MIS 4413--Object Oriented Systems Dev." HorizontalAlignment="Left" Height="30" Margin="22,251,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4433" Content="MIS 4433--Project Management" HorizontalAlignment="Left" Height="30" Margin="22,268,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4443" Content="MIS4442--Advanced Database Mgt." HorizontalAlignment="Left" Height="30" Margin="22,285,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4493" Content="MIS 4493--Intl. Issues of Info. Technology" HorizontalAlignment="Left" Height="30" Margin="22,301,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4702" Content="MIS 4702--Mobile App. Development" HorizontalAlignment="Left" Height="30" Margin="22,317,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4710" Content="MIS 4710--Topics in Mgt. Info. Systems" HorizontalAlignment="Left" Height="30" Margin="22,332,0,0" VerticalAlignment="Top" Width="253"/>
+        <CheckBox x:Name="MIS4960" Content="MIS 4960--Directed Reading in MIS" HorizontalAlignment="Left" Height="30" Margin="22,347,0,0" VerticalAlignment="Top" Width="253"/>
+        <Label x:Name="freeElective" Content="Free Electives (6 hours)" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <CheckBox x:Name="freeElective1" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
+        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+
     </Grid>
 </Window>
