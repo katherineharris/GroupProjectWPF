@@ -23,5 +23,36 @@ namespace DegreeCandidacy
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if ((ACCT3113.IsChecked == true) || (ACCT3123.IsChecked == true) || (ACCT3313.IsChecked == true) || (ACCT3353.IsChecked == true) | (ACCT3603.IsChecked == true) || (ACCT4543.IsChecked == true) || (freeElective1.IsChecked == true) || (freeElective2.IsChecked == true) || (nonBusinessElectiveI.IsChecked == true) || (nonBusinessElectiveII.IsChecked == true) || (busElectiveI.IsChecked == true) || (busElectiveII).IsChecked == true)|| (busElectiveIII.IsChecked == true) || (busElectiveIV.IsChecked == true))
+            {
+
+                XAccounting acct = new XAccounting();
+                acct.Show();
+                this.Close();
+            }
+            else
+            {
+                if (SCM3223.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 3223");
+                }
+                if (SCM3323.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 3323");
+                }
+                if (SCM3523.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 3523");
+                }
+                if (SCM4003.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 4003");
+                }
+            }
+        }
     }
 }
+
