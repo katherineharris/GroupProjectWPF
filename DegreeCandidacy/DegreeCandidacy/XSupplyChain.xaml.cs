@@ -31,19 +31,60 @@ namespace DegreeCandidacy
 
             if ((SCM3223.IsChecked == true) || (SCM3323.IsChecked == true) || (SCM3523.IsChecked == true) || (SCM4003.IsChecked == true) | (SCM4013.IsChecked == true) || (SCM4323.IsChecked == true) || (scmElective1.IsChecked == true) || (scmElective2.IsChecked == true) || (scmElective3.IsChecked == true) || (scmElective4.IsChecked == true) || (scmElective5.IsChecked == true))
             {
-                //        if ((int)checked.Items[i] == 3))
-                //        {
-                //            lstTotalHours.Items.Add(SCM3223);
-                //        }
+                {
+                    Window3 win3 = new Window3();
+                    win3.Show();
+                    this.Close();
+                }
+            else
+            {
+                    if (SCM3223.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 3223");
+                    }
+                    if (SCM3323.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 3323");
+                    }
+                    if (SCM3523.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 3523");
+                    }
+                    if (SCM4003.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 4003");
+                    }
+                    if (SCM4013.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 4013");
+                    }
+                    if (SCM4323.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM 4323");
+                    }
+                    if (scmElective1.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM Elective 1");
+                    }
+                    if (scmElective2.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM Elective 2");
+                    }
+                    if (scmElective3.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM Elective 3");
+                    }
+                    if (scmElective4.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM Elective 4");
+                    }
+                    if (scmElective5.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("SCM Elective 5");
+                    }
 
-                ListBox listbox = new ListBox();
-                CheckBox checkbox = new CheckBox();
-                checkbox.Content = "MyCheckBox";
 
-                listbox.Items.Add(checkbox);
-
-
-            }
+                }
          
             }
 
