@@ -26,7 +26,7 @@ namespace DegreeCandidacy
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((ACCT3113.IsChecked == true) || (ACCT3123.IsChecked == true) || (ACCT3313.IsChecked == true) || (ACCT3353.IsChecked == true) | (ACCT3603.IsChecked == true) || (ACCT4543.IsChecked == true) || (freeElective1.IsChecked == true) || (freeElective2.IsChecked == true) || (nonBusinessElectiveI.IsChecked == true) || (nonBusinessElectiveII.IsChecked == true) || (busElectiveI.IsChecked == true) || (busElectiveII).IsChecked == true)|| (busElectiveIII.IsChecked == true) || (busElectiveIV.IsChecked == true))
+            if ((ACCT3113.IsChecked == true) || (ACCT3123.IsChecked == true) || (ACCT3313.IsChecked == true) || (ACCT3353.IsChecked == true) | (ACCT3603.IsChecked == true) || (ACCT4543.IsChecked == true) || (freeElective1.IsChecked == true) || (freeElective2.IsChecked == true) || (nonBusinessElectiveI.IsChecked == true) || (nonBusinessElectiveII.IsChecked == true) || (busElectiveI.IsChecked == true) || (busElectiveII.IsChecked == true)|| (busElectiveIII.IsChecked == true) || (busElectiveIV.IsChecked == true))
             {
 
                 XAccounting acct = new XAccounting();
@@ -35,22 +35,63 @@ namespace DegreeCandidacy
             }
             else
             {
-                if (SCM3223.IsChecked == false)
+                if (ACCT3113.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("SCM 3223");
+                    lstTotalHours.Items.Add("ACCT 3113");
                 }
-                if (SCM3323.IsChecked == false)
+                if (ACCT3123.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("SCM 3323");
+                    lstTotalHours.Items.Add("ACCT 3123");
                 }
-                if (SCM3523.IsChecked == false)
+                if (ACCT3313.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("SCM 3523");
+                    lstTotalHours.Items.Add("ACCT 3313");
                 }
-                if (SCM4003.IsChecked == false)
+                if (ACCT3353.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("SCM 4003");
+                    lstTotalHours.Items.Add("ACCT 3353");
                 }
+                if (ACCT3603.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("ACCT 3603");
+                }
+                if (ACCT4543.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("ACCT 4543");
+                }
+                if (freeElective1.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 1");
+                }
+                if (freeElective2.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 2");
+                }
+                if (busElectiveI.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Business1Elective I");
+                }
+                if (busElectiveII.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Business Elective 2");
+                }
+                if (busElectiveIII.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Business Elective 3");
+                }
+                if (busElectiveIV.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Business Elective 4");
+                }
+                if (nonBusinessElectiveI.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Non-Business Elective 1");
+                }
+                if (nonBusinessElectiveII.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Non-Business Elective 2");
+                }
+               
             }
         }
     }
