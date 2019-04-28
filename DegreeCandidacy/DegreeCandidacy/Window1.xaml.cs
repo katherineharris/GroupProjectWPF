@@ -43,7 +43,7 @@ namespace DegreeCandidacy
                 txtCreditHours.Clear();
             }
 
-            if ((checkACCT2113.IsChecked==true)&&(checkACCT2123.IsChecked==true)&&(checkBC2813.IsChecked==true)&& (checkECON1113.IsChecked == true) && (checkMIS2113.IsChecked == true) && (checkBC2813.IsChecked == true)&&(Convert.ToDouble(txtOUGPA.Text)>=2.5)&& (Convert.ToDouble(txtGPACombo.Text) >= 2.5)&& (Convert.ToDouble(txtCreditHours.Text) >= 3.0))
+            if ((checkACCT2113.IsChecked == true) && (checkACCT2123.IsChecked == true) && (checkBC2813.IsChecked == true) && (checkECON1113.IsChecked == true) && (checkMIS2113.IsChecked == true) && (checkBC2813.IsChecked == true) && (Convert.ToDouble(txtOUGPA.Text) >= 2.5) && (Convert.ToDouble(txtGPACombo.Text) >= 2.5) && (Convert.ToDouble(txtCreditHours.Text) >= 3.0)) 
             {
                 Window2 win2 = new Window2();
                 win2.Show();
