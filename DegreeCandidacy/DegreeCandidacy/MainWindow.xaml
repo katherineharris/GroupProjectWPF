@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DegreeCandidacy"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="Crimson">
     <Grid>
         <Label x:Name="lblWelcome" Content="Price Undergraduate Degree Checklist" HorizontalAlignment="Left" Margin="179,21,0,0" VerticalAlignment="Top" Height="47" Width="433" FontSize="24"/>
         <Label x:Name="lblSignIn" Content="Sign In" HorizontalAlignment="Left" Margin="354,78,0,0" VerticalAlignment="Top" FontSize="20"/>

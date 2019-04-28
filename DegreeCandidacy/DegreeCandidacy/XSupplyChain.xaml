@@ -29,7 +29,7 @@
         <CheckBox x:Name="scmElective3" Content="Elective 3" HorizontalAlignment="Left" Height="30" Margin="22,328,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="scmElective4" Content="Elective 4" HorizontalAlignment="Left" Height="30" Margin="22,344,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="scmElective5" Content="Elective 5" HorizontalAlignment="Left" Height="30" Margin="22,359,0,0" VerticalAlignment="Top" Width="201"/>
-        <Button Content="Calculate&#xD;&#xA;" HorizontalAlignment="Left" Height="36" Margin="203,338,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+        <Button x:Name="btnSupplyChainCalculate" Content="Calculate&#xD;&#xA;" HorizontalAlignment="Left" Height="36" Margin="203,338,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
 
     </Grid>
 </Window>
