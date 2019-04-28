@@ -31,11 +31,11 @@ namespace DegreeCandidacy
 
             if ((SCM3223.IsChecked == true) || (SCM3323.IsChecked == true) || (SCM3523.IsChecked == true) || (SCM4003.IsChecked == true) | (SCM4013.IsChecked == true) || (SCM4323.IsChecked == true) || (scmElective1.IsChecked == true) || (scmElective2.IsChecked == true) || (scmElective3.IsChecked == true) || (scmElective4.IsChecked == true) || (scmElective5.IsChecked == true))
             {
-                {
-                    Window3 win3 = new Window3();
-                    win3.Show();
-                    this.Close();
-                }
+
+                XSupplyChain scm = new XSupplyChain();
+                scm.Show();
+                this.Close();
+            }
             else
             {
                     if (SCM3223.IsChecked == false)
@@ -54,9 +54,15 @@ namespace DegreeCandidacy
                     {
                         lstTotalHours.Items.Add("SCM 4003");
                     }
-                    if (SCM4013.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 4013");
+                //fix here. If 4013 checked then it opens new window. This one should be either/or
+                if (SCM4013.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 4013");
+                }
+                else if((HCB4633.IsChecked == false))
+                {
+                        lstTotalHours.Items.Add("HCB 4633");
+                }
                     }
                     if (SCM4323.IsChecked == false)
                     {
@@ -82,17 +88,30 @@ namespace DegreeCandidacy
                     {
                         lstTotalHours.Items.Add("SCM Elective 5");
                     }
+                    if (ACCT3313.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("ACCT 3313");
+                    }
+                    if (freeElective1.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("Free Elective 1");
+                    }
+                    if (freeElective2.IsChecked == false)
+                    {
+                        lstTotalHours.Items.Add("Free Elective 2");
+                    }
 
 
-                }
-         
+
+
             }
 
-      
+            }
 
-
-
-
+       
     }
-    }
+    
+
+
+
 
