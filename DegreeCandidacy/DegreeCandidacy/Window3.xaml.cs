@@ -59,7 +59,7 @@ namespace DegreeCandidacy
                 mis.Show();
                 this.Close();
             }
-            else if(comboSelection.ToString()=="Supply Chain Management")
+            else if(comboSelection.SelectedItem.ToString()=="Supply Chain Management")
             {
                 XSupplyChain scm = new XSupplyChain();
                 scm.Show();

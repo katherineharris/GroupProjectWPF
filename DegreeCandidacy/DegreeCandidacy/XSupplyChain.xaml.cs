@@ -31,28 +31,27 @@ namespace DegreeCandidacy
 
             if ((SCM3223.IsChecked == true) || (SCM3323.IsChecked == true) || (SCM3523.IsChecked == true) || (SCM4003.IsChecked == true) | (SCM4013.IsChecked == true) || (SCM4323.IsChecked == true) || (scmElective1.IsChecked == true) || (scmElective2.IsChecked == true) || (scmElective3.IsChecked == true) || (scmElective4.IsChecked == true) || (scmElective5.IsChecked == true))
             {
-                //need to add if checked
-                //assign value to each cheched as 3?
+                //        if ((int)checked.Items[i] == 3))
+                //        {
+                //            lstTotalHours.Items.Add(SCM3223);
+                //        }
 
-                int SCM3223 = 3.0;
+                ListBox listbox = new ListBox();
+                CheckBox checkbox = new CheckBox();
+                checkbox.Content = "MyCheckBox";
 
-              
+                listbox.Items.Add(checkbox);
+
+
             }
          
-
-                //int SCM3223 = 3;
-                //foreach (Control control in this.Control)               
-                //    if (control is CheckBox)
-                //    {
-                //        SCM3223 = SCM3223 + Convert.ToInt32(control.Tag);
-                //        lstTotalHours.Items.Add(SCM3223);
-                //    }
             }
 
+      
 
 
 
 
-        }
+    }
     }
 
