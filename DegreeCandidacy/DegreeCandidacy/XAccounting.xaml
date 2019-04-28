@@ -26,6 +26,7 @@
         <CheckBox x:Name="freeElective2" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
         <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
         <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="44" Margin="661,285,0,0" VerticalAlignment="Top" Width="124"/>
 
     </Grid>
 </Window>
