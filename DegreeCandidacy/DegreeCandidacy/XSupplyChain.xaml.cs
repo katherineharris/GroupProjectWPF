@@ -33,9 +33,10 @@ namespace DegreeCandidacy
             {
                 //need to add if checked
                 //assign value to each cheched as 3?
-                Window3 win3 = new Window3();
-                win3.Show();
-                this.Close();
+
+                int SCM3223 = 3.0;
+
+              
             }
          
 

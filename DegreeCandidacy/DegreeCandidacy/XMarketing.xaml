@@ -30,6 +30,7 @@
         <CheckBox x:Name="freeElective4UDMkt" Content="UD Elective 4" HorizontalAlignment="Left" Height="30" Margin="22,353,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective5UDMkt" Content="UD Elective 5" HorizontalAlignment="Left" Height="30" Margin="22,367,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective6UDMkt" Content="UD Elective 6" HorizontalAlignment="Left" Height="30" Margin="22,383,0,0" VerticalAlignment="Top" Width="201"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="36" Margin="652,332,0,0" VerticalAlignment="Top" Width="143"/>
 
     </Grid>
 </Window>
