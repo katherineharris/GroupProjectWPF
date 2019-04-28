@@ -36,7 +36,7 @@
         <Label x:Name="eleUD" Content="Upper Division Electives (6 hours)" HorizontalAlignment="Left" Margin="301,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="freeElective1UDFin" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="308,202,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective2UDFin" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="308,220,0,0" VerticalAlignment="Top" Width="201"/>
-        <Button x:Name="btnCalculateFin" Content="Calculate Hours Left" HorizontalAlignment="Left" Height="36" Margin="602,232,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="btnCalculateFin" Content="Calculate Hours Left" HorizontalAlignment="Left" Height="36" Margin="602,232,0,0" VerticalAlignment="Top" Width="137" Click="BtnCalculateFin_Click"/>
 
     </Grid>
 </Window>
