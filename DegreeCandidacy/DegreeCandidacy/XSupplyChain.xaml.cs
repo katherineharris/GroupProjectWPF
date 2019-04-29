@@ -38,75 +38,81 @@ namespace DegreeCandidacy
             }
             else
             {
-                    if (SCM3223.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 3223");
-                    }
-                    if (SCM3323.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 3323");
-                    }
-                    if (SCM3523.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 3523");
-                    }
-                    if (SCM4003.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 4003");
-                    }
-                //fix here. If 4013 checked then it opens new window. This one should be either/or
-                if (SCM4013.IsChecked == false)
+                if (SCM3223.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("SCM 4013");
+                    lstTotalHours.Items.Add("SCM 3223");
                 }
-                else if((HCB4633.IsChecked == false))
+                if (SCM3323.IsChecked == false)
                 {
-                        lstTotalHours.Items.Add("HCB 4633");
+                    lstTotalHours.Items.Add("SCM 3323");
                 }
-                    }
-                    if (SCM4323.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM 4323");
-                    }
-                    if (scmElective1.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM Elective 1");
-                    }
-                    if (scmElective2.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM Elective 2");
-                    }
-                    if (scmElective3.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM Elective 3");
-                    }
-                    if (scmElective4.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM Elective 4");
-                    }
-                    if (scmElective5.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("SCM Elective 5");
-                    }
-                    if (ACCT3313.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("ACCT 3313");
-                    }
-                    if (freeElective1.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("Free Elective 1");
-                    }
-                    if (freeElective2.IsChecked == false)
-                    {
-                        lstTotalHours.Items.Add("Free Elective 2");
-                    }
+                if (SCM3523.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 3523");
+                }
+                if (SCM4003.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 4003");
+                }
+
+                int totalSCM = 0;
+                int hoursleft;
+                if (SCM4013.IsChecked == true)
+                {
+                    totalSCM = totalSCM + 3;
+                }
+                if (HCB4633.IsChecked == true)
+                {
+                    totalSCM = totalSCM + 3;
+                }
+                if (totalSCM < 3)
+                {
+                    hoursleft = 3 - totalSCM;
+                    lstTotalHours.Items.Add($"{hoursleft} hours of either SCM 4013/HCB 4633");
+                }
 
 
+                if (SCM4323.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM 4323");
+                }
+                if (scmElective1.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM Elective 1");
+                }
+                if (scmElective2.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM Elective 2");
+                }
+                if (scmElective3.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM Elective 3");
+                }
+                if (scmElective4.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM Elective 4");
+                }
+                if (scmElective5.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("SCM Elective 5");
+                }
+                if (ACCT3313.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("ACCT 3313");
+                }
+                if (freeElective1.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 1");
+                }
+                if (freeElective2.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 2");
+                }
 
 
             }
-
-            }
+        }
+    }
 
        
     }

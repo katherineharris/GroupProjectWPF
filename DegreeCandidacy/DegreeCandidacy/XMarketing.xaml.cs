@@ -80,27 +80,27 @@ namespace DegreeCandidacy
                 int totalUD = 0;
                 int hoursleft;
 
-                if (freeElective1UDMkt.IsChecked == false)
+                if (freeElective1UDMkt.IsChecked == true)
                 {
                     totalUD = totalUD + 3;
                 }
-                if (freeElective2UDMkt.IsChecked == false)
+                if (freeElective2UDMkt.IsChecked ==true)
                 {
                     totalUD = totalUD + 3;
                 }
-                if (freeElective3UDMkt.IsChecked == false)
+                if (freeElective3UDMkt.IsChecked == true)
                 {
                     totalUD = totalUD + 3;
                 }
-                if (freeElective4UDMkt.IsChecked == false)
+                if (freeElective4UDMkt.IsChecked == true)
                 {
                     totalUD = totalUD + 3;
                 }
-                if (freeElective5UDMkt.IsChecked == false)
+                if (freeElective5UDMkt.IsChecked == true)
                 {
                     totalUD = totalUD + 3;
                 }
-                if (freeElective6UDMkt.IsChecked == false)
+                if (freeElective6UDMkt.IsChecked == true)
                 {
                     totalUD = totalUD + 3;
                 }
