@@ -14,7 +14,7 @@
         <CheckBox x:Name="MIS3373" Content="MIS 3373--Sys. Analysis/Design Theory" HorizontalAlignment="Left" Height="30" Margin="22,95,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="MIS3383" Content="MIS 3383--Electronic Business" HorizontalAlignment="Left" Height="30" Margin="22,113,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="MIS4663" Content="MIS 4663--MIS Field Project" HorizontalAlignment="Left" Height="30" Margin="22,131,0,0" VerticalAlignment="Top" Width="253"/>
-        <Label x:Name="additionalCourses" Content="Additional Courses/Upper Division Electives" HorizontalAlignment="Left" Margin="22,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Label x:Name="additionalCourses" Content="Additional Courses/Upper Division Electives" HorizontalAlignment="Left" Margin="22,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283" Width="259"/>
         <CheckBox x:Name="MIS3213" Content="MIS 3213--Buiness Data Analytics" HorizontalAlignment="Left" Height="30" Margin="22,197,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="MIS3363" Content="MIS 3363--Info Systems Infrastructure" HorizontalAlignment="Left" Height="30" Margin="22,215,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="MIS4213" Content="MIS 4213--Prototyping &amp; Rapid App. Development" HorizontalAlignment="Left" Height="30" Margin="22,233,0,0" VerticalAlignment="Top" Width="253"/>

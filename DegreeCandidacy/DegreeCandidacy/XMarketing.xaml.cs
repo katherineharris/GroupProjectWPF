@@ -29,8 +29,8 @@ namespace DegreeCandidacy
             if ((MKT3053.IsChecked == true) || (MKT3323.IsChecked == true) || (MKT3323.IsChecked == true) || (MKT4123.IsChecked == true) | (MKT4333.IsChecked == true) || (mktAdvertising.IsChecked == true) || (mktFranchising.IsChecked == true) || (mktHealthcareBusiness.IsChecked == true) || (mktSecondMajor.IsChecked == true) || (mktSupplyChainMgt.IsChecked == true) || (freeElective1UDMkt.IsChecked == true) || (freeElective2UDMkt.IsChecked == true) || (freeElective3UDMkt.IsChecked == true) || (freeElective4UDMkt.IsChecked == true) ||(freeElective5UDMkt.IsChecked==true)|| (freeElective6UDMkt.IsChecked==true)||(freeElectiveMkt.IsChecked == true))
             {
 
-                XMarketing mkt = new XMarketing();
-                mkt.Show();
+                //XMarketing mkt = new XMarketing();
+                //mkt.Show();
                 this.Close();
             }
 

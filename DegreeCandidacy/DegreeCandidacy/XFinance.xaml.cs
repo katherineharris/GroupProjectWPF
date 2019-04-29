@@ -26,12 +26,14 @@ namespace DegreeCandidacy
 
         private void BtnCalculateFin_Click(object sender, RoutedEventArgs e)
         {
+            int totalUDElectives = 0;
+            int UDhoursLeft;
             if ((FIN3403.IsChecked == true) || (FIN3453.IsChecked == true) || (FIN3503.IsChecked == true) || (FIN3603.IsChecked == true) | (FIN3960.IsChecked == true) || (FIN3980.IsChecked == true) || (FIN4113.IsChecked == true) || (FIN4133.IsChecked == true) || (FIN4403.IsChecked == true) || (FIN4413.IsChecked == true) || (FIN4513.IsChecked == true) || (FIN4613.IsChecked == true) || (FIN4700.IsChecked == true) || (FIN4713.IsChecked == true) || (ECON3113.IsChecked == true) || (ACCT3113.IsChecked == true) || (ACCT3123.IsChecked == true) || (freeElective1Fin.IsChecked == true) || (freeElective2Fin.IsChecked == true) || (freeElective1UDFin.IsChecked == true) || (freeElective2UDFin.IsChecked == true))
             {
-
-                XFinance fin = new XFinance();
-                fin.Show();
                 this.Close();
+                //XFinance fin = new XFinance();
+                //fin.Show();
+                //this.Close();
             }
             else
             {
@@ -83,9 +85,7 @@ namespace DegreeCandidacy
                 //how do i get it to only add 3 of the x amount of courses?
 
 
-                //choose 9 hours from here
-                int totalUDElectives = 0;
-                int UDhoursLeft;
+                
                 
 
                 if (FIN3960.IsChecked == true)
