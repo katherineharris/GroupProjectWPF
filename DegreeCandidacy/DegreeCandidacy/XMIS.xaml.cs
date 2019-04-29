@@ -29,9 +29,8 @@ namespace DegreeCandidacy
             if ((MIS3013.IsChecked == true) || (MIS3033.IsChecked == true) || (MID3353y.IsChecked == true) || (MIS3373.IsChecked == true) | (MIS3383.IsChecked == true) || (MIS4663.IsChecked == true) || (MIS3213.IsChecked == true) || (MIS3363.IsChecked == true) || (MIS4213.IsChecked == true) || (MIS4413.IsChecked == true) || (MIS4433.IsChecked == true) || (MIS4443.IsChecked == true) || (MIS4493.IsChecked == true) || (MIS4702.IsChecked == true) || (MIS4710.IsChecked == true) || (MIS4960.IsChecked == true) || (freeElective1.IsChecked == true) || (freeElective2.IsChecked == true))
             {
 
-                XFinance fin = new XFinance();
-                fin.Show();
-                this.Close();
+                MessageBox.Show("Congrats, you're done!");
+
             }
             else
             {
