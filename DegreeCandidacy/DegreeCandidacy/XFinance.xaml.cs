@@ -83,52 +83,71 @@ namespace DegreeCandidacy
                 //how do i get it to only add 3 of the x amount of courses?
 
 
-                //choose 9 hours from here 
-                //if (FIN3960.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN3980.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4113.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4133.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4403.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4413.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4513.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4613.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4713.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //if (FIN4700.IsChecked == true)
-                //{
-                //    lstTotalHours.Items.Add(" ");
-                //}
-                //else
-                //{
-                //    lstTotalHours.Items.Add("Please choose 3 classes from the section");
-                //}
-            
+                //choose 9 hours from here
+                int totalUDElectives = 0;
+                int UDhoursLeft;
+
+                //FIN3960
+                //    FIN3980
+                //    FIN4113
+                //    FIN4133
+                //    FIN4403
+                //    FIN4413
+                //    FIN4513
+                //    FIN4613
+                //    FIN4713
+                //    FIN4700
+
+                if (FIN3960.IsChecked == true)
+                {
+                    totalUDElectives=totalUDElectives+3;
+                }
+                if (FIN3980.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4113.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4133.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4403.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4413.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4513.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4613.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4713.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (FIN4700.IsChecked == true)
+                {
+                    totalUDElectives = totalUDElectives + 3;
+                }
+                if (totalUDElectives < 9)
+                {
+                    UDhoursLeft = 9 - totalUDElectives;
+                    lstTotalHours.Items.Add($"You need {UDhoursLeft} more Upper Division Electives");
+                }
+                else
+                {
+                    lstTotalHours.Items.Add("");
+                }
+
 
 
             }

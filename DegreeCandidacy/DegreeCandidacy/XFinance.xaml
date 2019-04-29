@@ -25,8 +25,8 @@
         <Label x:Name="finUDB" Content="Upper Division Business (9 hours)" HorizontalAlignment="Left" Margin="308,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="ECON3113" Content="ECON 3113--Intermediate Microeconomic Theory" HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="287"/>
         <CheckBox x:Name="ACCT3113" Content="ACCT 3113--Intermediate Acct. I" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
-        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="110" Margin="308,288,0,0" VerticalAlignment="Top" Width="410"/>
-        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="308,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="287" Margin="531,106,0,0" VerticalAlignment="Top" Width="241"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="569,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <Label x:Name="nineHours" Content="Choose 9 Hours" HorizontalAlignment="Left" Margin="22,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="FIN4700" Content="FIN 4700--Internship in Finance*" HorizontalAlignment="Left" Height="30" Margin="22,334,0,0" VerticalAlignment="Top" Width="253"/>
         <CheckBox x:Name="ACCT3123" Content="ACCT 3213--Intermediate Acct. II" HorizontalAlignment="Left" Height="30" Margin="315,76,0,0" VerticalAlignment="Top" Width="201"/>
@@ -36,7 +36,7 @@
         <Label x:Name="eleUD" Content="Upper Division Electives (6 hours)" HorizontalAlignment="Left" Margin="301,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="freeElective1UDFin" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="308,202,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective2UDFin" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="308,220,0,0" VerticalAlignment="Top" Width="201"/>
-        <Button x:Name="btnCalculateFin" Content="Calculate Hours Left" HorizontalAlignment="Left" Height="36" Margin="602,232,0,0" VerticalAlignment="Top" Width="137" Click="BtnCalculateFin_Click"/>
+        <Button x:Name="btnCalculateFin" Content="Calculate Hours Left" HorizontalAlignment="Left" Height="36" Margin="350,298,0,0" VerticalAlignment="Top" Width="137" Click="BtnCalculateFin_Click"/>
 
     </Grid>
 </Window>

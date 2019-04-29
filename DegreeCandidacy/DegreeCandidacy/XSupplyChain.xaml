@@ -20,7 +20,7 @@
         <CheckBox x:Name="freeElective1" Content="Free Elective 1" HorizontalAlignment="Left" Height="30" Margin="315,41,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective2" Content="Free Elective 2" HorizontalAlignment="Left" Height="30" Margin="315,59,0,0" VerticalAlignment="Top" Width="201"/>
         <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
-        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
+        <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <Label x:Name="eleUD" Content="Upper Division Electives (3 hours)" HorizontalAlignment="Left" Margin="15,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <CheckBox x:Name="ACCT3313" Content="ACCT 3313--Cost Accounting" HorizontalAlignment="Left" Height="30" Margin="22,247,0,0" VerticalAlignment="Top" Width="201"/>
         <Label x:Name="eleUD_Copy" Content="Upper Division Electives (15 hours)" HorizontalAlignment="Left" Margin="15,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
