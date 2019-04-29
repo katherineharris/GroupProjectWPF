@@ -26,7 +26,7 @@ namespace DegreeCandidacy
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((FIN3403.IsChecked == true) || (FIN3453.IsChecked == true) || (FIN3503.IsChecked == true) || (FIN3603.IsChecked == true) | (FIN3960.IsChecked == true) || (FIN3980.IsChecked == true) || (FIN4113.IsChecked == true) || (FIN4133.IsChecked == true) || (FIN4403.IsChecked == true) || (FIN4413.IsChecked == true) || (FIN4513.IsChecked == true) || (FIN4613.IsChecked == true) || (FIN4700.IsChecked == true) || (FIN4713.IsChecked == true) || (ECON3113.IsChecked == true) || (ACCT3113.IsChecked == true) || (ACCT3123.IsChecked == true) || (freeElective1Fin.IsChecked == true) || (freeElective2Fin.IsChecked == true) || (freeElective1UDFin.IsChecked == true) || (freeElective2UDFin.IsChecked == true))
+            if ((MIS3013.IsChecked == true) || (MIS3033.IsChecked == true) || (MID3353y.IsChecked == true) || (MIS3373.IsChecked == true) | (MIS3383.IsChecked == true) || (MIS4663.IsChecked == true) || (MIS3213.IsChecked == true) || (MIS3363.IsChecked == true) || (MIS4213.IsChecked == true) || (MIS4413.IsChecked == true) || (MIS4433.IsChecked == true) || (MIS4443.IsChecked == true) || (MIS4493.IsChecked == true) || (MIS4702.IsChecked == true) || (MIS4710.IsChecked == true) || (MIS4960.IsChecked == true) || (freeElective1.IsChecked == true) || (freeElective2.IsChecked == true))
             {
 
                 XFinance fin = new XFinance();
@@ -35,108 +35,94 @@ namespace DegreeCandidacy
             }
             else
             {
-                if (ACCT3113.IsChecked == false)
+                if (MIS3013.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3113");
+                    lstTotalHours.Items.Add("MIS 3013");
                 }
-                if (ACCT3123.IsChecked == false)
+                if (MIS3033.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3123");
+                    lstTotalHours.Items.Add("MIS 3033");
                 }
-                if (ECON3113.IsChecked == false)
+                if (MID3353y.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ECON 3113");
+                    lstTotalHours.Items.Add("MIS 3353");
                 }
-                if (freeElective1Fin.IsChecked == false)
+                if (MIS3373.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Free Elective 1");
+                    lstTotalHours.Items.Add("MIS 3373");
                 }
-                if (freeElective2Fin.IsChecked == false)
+                if (MIS3383.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Free Elective 2");
+                    lstTotalHours.Items.Add("MIS 3383");
                 }
-                if (freeElective1UDFin.IsChecked == false)
+                if (MIS4663.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Upper Division Free Elective 1");
-                }
-                if (freeElective2UDFin.IsChecked == false)
-                {
-                    lstTotalHours.Items.Add("Upper Division Free Elective 2");
-                }
-                if (FIN3403.IsChecked == false)
-                {
-                    lstTotalHours.Items.Add("FIN 3403");
-                }
-                if (FIN3453.IsChecked == false)
-                {
-                    lstTotalHours.Items.Add("FIN 3453");
-                }
-                if (FIN3503.IsChecked == false)
-                {
-                    lstTotalHours.Items.Add("FIN 3503");
-                }
-                if (FIN3603.IsChecked == false)
-                {
-                    lstTotalHours.Items.Add("FIN 3603");
+                    lstTotalHours.Items.Add("MIS 4663");
                 }
 
-                //how do i get it to only add 3 of the x amount of courses?
+                int totalUD = 0;
+                int hoursleft;
 
-
-                //choose 9 hours from here
-                int totalUDElectives = 0;
-                int UDhoursLeft;
-
-
-                if (FIN3960.IsChecked == true)
+                if (MIS3213.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN3980.IsChecked == true)
+                if (MIS3363.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4113.IsChecked == true)
+                if (MIS4213.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4133.IsChecked == true)
+                if (MIS4413.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4403.IsChecked == true)
+                if (MIS4433.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4413.IsChecked == true)
+                if (MIS4443.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4513.IsChecked == true)
+                if (MIS4493.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4613.IsChecked == true)
+                if (MIS4702.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4713.IsChecked == true)
+                if (MIS4710.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (FIN4700.IsChecked == true)
+                if (MIS4960.IsChecked == true)
                 {
-                    totalUDElectives = totalUDElectives + 3;
+                    totalUD = totalUD + 3;
                 }
-                if (totalUDElectives < 9)
+                if (totalUD < 17)
                 {
-                    UDhoursLeft = 9 - totalUDElectives;
-                    lstTotalHours.Items.Add($"You need {UDhoursLeft} more Upper Division Electives");
+                    hoursleft = 17 - totalUD;
+                    lstTotalHours.Items.Add($"{hoursleft} hours of Upper Division MIS");
                 }
                 else
                 {
                     lstTotalHours.Items.Add("");
                 }
+                if (freeElective1.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 1");
+                }
+                if (freeElective2.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Free Elective 2");
+                }
             }
+
+                
+        }
     }
 }
