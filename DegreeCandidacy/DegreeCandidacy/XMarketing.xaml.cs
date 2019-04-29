@@ -26,7 +26,7 @@ namespace DegreeCandidacy
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((MKT3053.IsChecked == true) || (MKT3323.IsChecked == true) || (MKT3513.IsChecked == true) || (MKT4123.IsChecked == true) | (MKT4333.IsChecked == true) || (mktAdvertising.IsChecked == true) || (mktFranchising.IsChecked == true) || (mktHealthcareBusiness.IsChecked == true) || (mktSecondMajor.IsChecked == true) || (mktSupplyChainMgt.IsChecked == true) || (freeElective1UDMkt.IsChecked == true) || (freeElective2UDMkt.IsChecked == true) || (freeElective3UDMkt.IsChecked == true) || (freeElective4UDMkt.IsChecked == true) ||(freeElective5UDMkt.IsChecked==true)|| (freeElective6UDMkt.IsChecked==true))
+            if ((MKT3053.IsChecked == true) || (MKT3323.IsChecked == true) || (MKT3323.IsChecked == true) || (MKT4123.IsChecked == true) | (MKT4333.IsChecked == true) || (mktAdvertising.IsChecked == true) || (mktFranchising.IsChecked == true) || (mktHealthcareBusiness.IsChecked == true) || (mktSecondMajor.IsChecked == true) || (mktSupplyChainMgt.IsChecked == true) || (freeElective1UDMkt.IsChecked == true) || (freeElective2UDMkt.IsChecked == true) || (freeElective3UDMkt.IsChecked == true) || (freeElective4UDMkt.IsChecked == true) ||(freeElective5UDMkt.IsChecked==true)|| (freeElective6UDMkt.IsChecked==true)||(freeElectiveMkt.IsChecked == true))
             {
 
                 XMarketing mkt = new XMarketing();
@@ -37,61 +37,87 @@ namespace DegreeCandidacy
 
             else
             {
-                if (ACCT3113.IsChecked == false)
+                if (MKT3053.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3113");
+                    lstTotalHours.Items.Add("MKT 3053");
                 }
-                if (ACCT3123.IsChecked == false)
+                if (MKT3323.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3123");
+                    lstTotalHours.Items.Add("MKT 3323");
                 }
-                if (ACCT3313.IsChecked == false)
+                if (MKT3323.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3313");
+                    lstTotalHours.Items.Add("MKT 3323");
                 }
-                if (ACCT3353.IsChecked == false)
+                if (MKT4123.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3353");
+                    lstTotalHours.Items.Add("MKT 4123");
                 }
-                if (ACCT3603.IsChecked == false)
+                if (MKT4333.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 3603");
+                    lstTotalHours.Items.Add("MKT 4333");
                 }
-                if (ACCT4543.IsChecked == false)
+                if (mktAdvertising.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("ACCT 4543");
+                    lstTotalHours.Items.Add("MKT Advertising");
                 }
-                if (freeElective1.IsChecked == false)
+                if (mktFranchising.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Free Elective 1");
+                    lstTotalHours.Items.Add("MKT Franchising");
                 }
-                if (freeElective2.IsChecked == false)
+                if (mktHealthcareBusiness.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Free Elective 2");
+                    lstTotalHours.Items.Add("MKT Healthcare Business");
                 }
-                if (busElectiveI.IsChecked == false)
+                if (mktSecondMajor.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Business1Elective I");
+                    lstTotalHours.Items.Add("MKT Second Major");
                 }
-                if (busElectiveII.IsChecked == false)
+                if (mktSupplyChainMgt.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Business Elective 2");
+                    lstTotalHours.Items.Add("MKT Supply Chain MGT");
                 }
-                if (busElectiveIII.IsChecked == false)
+                int totalUD = 0;
+                int hoursleft;
+
+                if (freeElective1UDMkt.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Business Elective 3");
+                    totalUD = totalUD + 3;
                 }
-                if (busElectiveIV.IsChecked == false)
+                if (freeElective2UDMkt.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Business Elective 4");
+                    totalUD = totalUD + 3;
                 }
-                if (nonBusinessElectiveI.IsChecked == false)
+                if (freeElective3UDMkt.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Non-Business Elective 1");
+                    totalUD = totalUD + 3;
                 }
-                if (nonBusinessElectiveII.IsChecked == false)
+                if (freeElective4UDMkt.IsChecked == false)
                 {
-                    lstTotalHours.Items.Add("Non-Business Elective 2");
+                    totalUD = totalUD + 3;
+                }
+                if (freeElective5UDMkt.IsChecked == false)
+                {
+                    totalUD = totalUD + 3;
+                }
+                if (freeElective6UDMkt.IsChecked == false)
+                {
+                    totalUD = totalUD + 3;
+                }
+                if (totalUD < 12)
+                {
+                    hoursleft = 12 - totalUD;
+                    lstTotalHours.Items.Add($"You need {totalUD} more Upper Division Electives");
+                }
+                else
+                {
+                    lstTotalHours.Items.Add("");
+
+                }
+                if (freeElectiveMkt.IsChecked == false)
+                {
+                    lstTotalHours.Items.Add("Marketing Free Elective");
+
                 }
             }
     }

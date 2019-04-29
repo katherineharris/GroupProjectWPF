@@ -86,17 +86,7 @@ namespace DegreeCandidacy
                 //choose 9 hours from here
                 int totalUDElectives = 0;
                 int UDhoursLeft;
-
-                //FIN3960
-                //    FIN3980
-                //    FIN4113
-                //    FIN4133
-                //    FIN4403
-                //    FIN4413
-                //    FIN4513
-                //    FIN4613
-                //    FIN4713
-                //    FIN4700
+                
 
                 if (FIN3960.IsChecked == true)
                 {
