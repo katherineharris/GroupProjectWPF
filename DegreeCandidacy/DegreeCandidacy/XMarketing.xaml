@@ -24,13 +24,13 @@
         <ListBox x:Name="lstTotalHours" HorizontalAlignment="Left" Height="216" Margin="350,166,0,0" VerticalAlignment="Top" Width="276"/>
         <Label x:Name="lblHoursLeft" Content="Hours Left Until Graduation:" HorizontalAlignment="Left" Margin="350,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
         <Label x:Name="eleUDMKT" Content="Upper Division Electives (12 hours)" HorizontalAlignment="Left" Margin="15,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.283"/>
-        <CheckBox x:Name="freeElective1UDFin" Content="UD Elective 1" HorizontalAlignment="Left" Height="30" Margin="22,302,0,0" VerticalAlignment="Top" Width="201"/>
-        <CheckBox x:Name="freeElective2UDFin" Content="UD Elective 2" HorizontalAlignment="Left" Height="30" Margin="22,320,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective1UDMkt" Content="UD Elective 1" HorizontalAlignment="Left" Height="30" Margin="22,302,0,0" VerticalAlignment="Top" Width="201"/>
+        <CheckBox x:Name="freeElective2UDMkt" Content="UD Elective 2" HorizontalAlignment="Left" Height="30" Margin="22,320,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective3UDMkt" Content="UD Elective 3" HorizontalAlignment="Left" Height="30" Margin="22,338,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective4UDMkt" Content="UD Elective 4" HorizontalAlignment="Left" Height="30" Margin="22,353,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective5UDMkt" Content="UD Elective 5" HorizontalAlignment="Left" Height="30" Margin="22,367,0,0" VerticalAlignment="Top" Width="201"/>
         <CheckBox x:Name="freeElective6UDMkt" Content="UD Elective 6" HorizontalAlignment="Left" Height="30" Margin="22,383,0,0" VerticalAlignment="Top" Width="201"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="36" Margin="652,332,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="36" Margin="642,302,0,0" VerticalAlignment="Top" Width="143" Click="Button_Click"/>
 
     </Grid>
 </Window>
